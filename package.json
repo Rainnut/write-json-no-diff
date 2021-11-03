@@ -1,0 +1,41 @@
+{
+  "name": "ast-to-json",
+  "version": "1.0.0",
+  "description": "AST JSON parser",
+  "main": "build.js",
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -c -w",
+    "pretest": "pnpm run build",
+    "test": "jest",
+    "prepublishOnly": "pnpm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rainnut/ast-to-json.git"
+  },
+  "keywords": [
+    "ast",
+    "json",
+    "parser",
+    "ast2Json",
+    "ast-parser",
+    "json-parser",
+    "tree"
+  ],
+  "engines": {
+    "node": ">= 4"
+  },
+  "files": [
+    "build.js",
+    "LICENSE",
+    "README.md",
+    "CHANGELOG.md"
+  ],
+  "author": "Rainnut",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Rainnut/ast-to-json/issues"
+  },
+  "homepage": "https://github.com/Rainnut/ast-to-json#readme"
+}
